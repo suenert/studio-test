@@ -10,5 +10,12 @@ paths:
       summary: tests
       tags: []
       responses: {}
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties: {}
+      description: Jooo
 components:
   schemas: {}
