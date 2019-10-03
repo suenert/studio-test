@@ -10,13 +10,17 @@ paths:
     get:
       summary: tests
       tags: []
-      responses: {}
+      responses:
+        '200':
+          description: OK
       requestBody:
         content:
           application/json:
             schema:
               type: object
-              properties: {}
+              properties:
+                name:
+                  type: string
       description: Jooo
 components:
   schemas: {}
